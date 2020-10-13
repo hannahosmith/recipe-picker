@@ -1,11 +1,12 @@
-# require "what_should_i_eat/version"
+# # require "what_should_i_eat/version"
+# # require 'what_should_i_eat/printing'
 require 'http'
 require 'JSON'
 
 module WhatShouldIEat
   class Error < StandardError; end
   # Your code goes here...
-  def recipe_get
+  def WhatShouldIEat.recipe_get
     # self.get
     #   puts "go ahead, ask me: \"what should i eat today?\""
     # end
@@ -16,6 +17,7 @@ module WhatShouldIEat
 
     puts recipe_name
     puts recipe_url
+    # Printing.print(recipe_name,recipe_url)
 
   end
 

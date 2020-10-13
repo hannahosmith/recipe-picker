@@ -1,5 +1,12 @@
 #!/usr/bin/env ruby
 
+# require "what_should_i_eat"
+# # require "what_should_i_eat/printing"
+#
+# recipe_get
+
+#!/usr/bin/env ruby
+
 require "what_should_i_eat"
 
 WhatShouldIEat.recipe_get
